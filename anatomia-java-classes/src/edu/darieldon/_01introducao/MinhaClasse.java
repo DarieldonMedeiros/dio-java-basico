@@ -1,4 +1,4 @@
-package edu.darieldon.primeirasemana;
+package edu.darieldon._01introducao;
 
 public class MinhaClasse {
     public static void main(String[] args) {

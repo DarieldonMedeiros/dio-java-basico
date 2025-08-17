@@ -1,5 +1,5 @@
 //Aula 5 - Packages
-package edu.darieldon.segundasemana;
+package edu.darieldon._02anatomiadasclasses;
 
 public class BoletimEstudantil {
     public static void main(String[] args) {
