@@ -17,8 +17,10 @@ dio-java-basico/
 │               ├── _01introducao/
 │               ├── _02anatomiadasclasses/
 │               ├── _03tiposevariaveis/
-│               └── _04metodos/
-│                   └── smarttv/
+│               ├── _04metodos/
+│               │   └── smarttv/
+│               ├── _05javadoc/
+│               └── _06javaterminal/
 └── README.md
 ```
 
@@ -71,9 +73,27 @@ dio-java-basico/
   - Manipulação de estado de objetos
   - Interação entre classes
 
-## 🛠️ Como Executar
+### 📝 **Módulo 5: JavaDoc**
 
-### Pré-requisitos
+- **Arquivo:** `Calculadora.java`
+- **Conceitos abordados:**
+  - Documentação de código com JavaDoc
+  - Tags JavaDoc (@author, @version, @since, @param, @return)
+  - Comentários HTML em documentação
+  - Boas práticas de documentação
+  - Criação de APIs documentadas
+
+### 💻 **Módulo 6: Java Terminal**
+
+- **Arquivos:** `AboutMe.java` e `MinhaClasse.java`
+- **Conceitos abordados:**
+  - Entrada de dados via terminal
+  - Classe `Scanner` para leitura de input
+  - Interação com usuário via console
+  - Execução de programas Java pelo terminal
+  - Tratamento de diferentes tipos de entrada (String, int, double)
+
+## 🛠️ Pré-requisitos
 
 - Java Development Kit (JDK) 8 ou superior
 - IDE de sua preferência (IntelliJ IDEA, Eclipse, VS Code, etc.)
@@ -87,6 +107,8 @@ dio-java-basico/
 - ✅ **Estruturas de controle** e fluxo de execução
 - ✅ **Métodos** e passagem de parâmetros
 - ✅ **Orientação a objetos** básica
+- ✅ **Documentação** com JavaDoc
+- ✅ **Interação via terminal** e entrada de dados
 - ✅ **Boas práticas** de programação
 
 ## 🔍 Exemplos de Saída
@@ -105,7 +127,7 @@ Resultado do método: Darieldon Medeiros
 APROVADO
 ```
 
-### SmartTv (via Usuário.java)
+### SmartTv (via Usuario.java)
 
 ```cmd
 TV Ligada? false
@@ -113,6 +135,18 @@ Canal Atual: 1
 Volume Atual: 25
 Novo Status -> TV Ligada? true
 ...
+```
+
+### AboutMe.java
+
+```cmd
+Digite seu nome:
+Digite seu sobrenome:
+Digite sua idade:
+Digite sua altura:
+Olá, me chamo [nome] [sobrenome]
+Tenho [idade] anos
+Minha altura é [altura]m
 ```
 
 ## 📝 Notas do Desenvolvedor
